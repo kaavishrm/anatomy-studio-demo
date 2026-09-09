@@ -3,10 +3,10 @@
    and a lecture should not die because the wifi did. The shell is precached at
    install; the geometry is cached the first time it is actually fetched, so a
    student who only opens the page never silently downloads the whole model. */
-const V = 'anatomy-studio-v4.1.5';
+const V = 'anatomy-studio-v4.2.3';
 const SHELL = [
   './', './index.html',
-  './src/main.js', './src/scene.js', './src/data.js', './src/exam.js', './src/brand.js',
+  './src/main.js', './src/scene.js', './src/data.js', './src/exam.js', './src/tour.js', './src/brand.js',
   './vendor/three.module.js', './vendor/OrbitControls.js',
   './vendor/space-grotesk.css', './vendor/sg-latin.woff2', './vendor/sg-latin-ext.woff2',
   './data/manifest.json', './data/derived.json', './data/anatomy.json',

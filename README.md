@@ -3,24 +3,27 @@
 Interactive human anatomy for medical, dental, nursing, physiotherapy and allied health
 education. **[Open the demo](https://kaavishrm.github.io/anatomy-studio-demo/)**
 
-This repository holds a **demonstration build**. The complete geometry is here, because
-seeing it is the point. The authored teaching content is not: this build carries 120 of
-767 teaching cards and 55 of 392 examination stations, enough to show the format and the
-standard they are written to. The full content is installed on the institution's own
-network under licence.
+It runs its own guided tour. Open the link and an eleven step walkthrough drives the real
+interface: search, teaching cards, regional dissection, layer peeling, section planes,
+labelling, the spotter examination, the NMC competency map, and the coverage statement.
+About ninety seconds, skippable, replayable from the **Tour** button.
 
-| | Demo | Full licence |
+| | This demo | Full licence |
 |---|---|---|
 | Named teaching structures | 1,019 | 1,019 |
 | Mesh parts, FMA identifiers | 2,234 / 1,658 | 2,234 / 1,658 |
-| Teaching cards | 120 | **767** |
-| Spotter examination stations | 55 | **392 authored, 614 total** |
-| NMC CBME competencies mapped | 16 | **119** |
-| Male and female comparisons | 6 | **42** |
+| Spotter examination stations | **392** | 392 |
+| NMC CBME competencies mapped | **119** | 119 |
+| Male and female comparisons | **42** | 42 |
+| Teaching cards | 580 | **767** |
 
-Sectional cutting on all three planes, layer dissection, x-ray, isolate, measure, labelled
-capture, spotter and viva modes, lesson builder and presentation mode are all fully working
-in this build.
+Every tool works: sectioning on all three planes, layer dissection, x-ray, isolate,
+measure, labelled capture, spotter and viva modes, lesson builder, presentation mode.
+
+The teaching cards are the one thing held back, and only partly: this build carries every
+card rated high-yield, which is every structure a first-year is examined on. The 187 cards
+withheld cover fine-detail named parts. The full licence installs all 767 on the
+institution's own network, branded, offline, owned outright.
 
 ## Attribution
 
@@ -32,8 +35,7 @@ re-encoded. Structure identifiers from the Foundational Model of Anatomy, Univer
 Washington Structural Informatics Group.
 
 Mesh data in `data/` is CC BY-SA 2.1 JP, see `data/LICENSE-DATA.txt`. The application and
-the teaching content are the original work of m360 agency, all rights reserved,
-see `LICENSE.txt` and `NOTICE.txt`.
+the teaching content are the original work of m360 agency, all rights reserved.
 
 ## Not for clinical use
 
