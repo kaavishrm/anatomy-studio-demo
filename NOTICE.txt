@@ -1,0 +1,73 @@
+ANATOMY STUDIO
+Third-party notices and attribution
+Version 4.0.0 · 2026-09-09 · MASK360 Agency, Mumbai
+
+────────────────────────────────────────────────────────────────────────
+1. ANATOMICAL MODEL DATA
+────────────────────────────────────────────────────────────────────────
+Anatomical mesh data in app/data/ (manifest.json and geo-00.js to geo-31.js)
+is derived from BodyParts3D.
+
+    BodyParts3D
+    Copyright The Database Center for Life Science (DBCLS), Japan
+    https://lifesciencedb.jp/bp3d/
+    Licensed under Creative Commons Attribution-ShareAlike 2.1 Japan
+    https://creativecommons.org/licenses/by-sa/2.1/jp/
+
+This product is a DERIVATIVE WORK of BodyParts3D. The mesh has been decimated
+from 6,681,030 to 3,071,613 triangles, quantised, re-encoded, partitioned and
+re-packaged. Region assignment, laterality and the 1,019-entity grouping are
+derived from the original naming and geometry.
+
+CC BY-SA 2.1 JP obliges the licensee to:
+  · keep the attribution and the licence notice with the work
+  · identify the work as a derivative
+  · license the derivative mesh data under the same licence
+
+Accordingly the DERIVED MESH DATA in app/data/ is offered under CC BY-SA 2.1 JP.
+Attribution is displayed permanently in the application interface, in the rail
+footer and in the Coverage panel, and is recorded in the `provenance` block of
+app/data/manifest.json.
+
+────────────────────────────────────────────────────────────────────────
+2. STRUCTURE IDENTIFIERS
+────────────────────────────────────────────────────────────────────────
+    Foundational Model of Anatomy (FMA)
+    Structural Informatics Group, University of Washington
+    http://si.washington.edu/projects/fma
+    Licensed under Creative Commons Attribution 3.0
+
+────────────────────────────────────────────────────────────────────────
+3. SOFTWARE
+────────────────────────────────────────────────────────────────────────
+    three.js r160 · MIT · https://threejs.org
+    Copyright 2010-2024 three.js authors
+
+    OrbitControls (three.js examples) · MIT
+
+────────────────────────────────────────────────────────────────────────
+4. TYPEFACE
+────────────────────────────────────────────────────────────────────────
+    Space Grotesk · SIL Open Font License 1.1
+    Copyright 2020 Florian Karsten
+
+────────────────────────────────────────────────────────────────────────
+5. TEACHING CONTENT
+────────────────────────────────────────────────────────────────────────
+Teaching cards, the search lexicon, the spotter bank and the competency map in
+app/data/anatomy.json are original content written for this product by
+MASK360 Agency. They are not part of the BodyParts3D dataset and are not
+covered by its licence.
+
+Content is written to the standard of Gray's Anatomy for Students, Cunningham's
+Manual of Practical Anatomy, BD Chaurasia's Human Anatomy, Snell's Clinical
+Anatomy and Last's Anatomy, using Terminologia Anatomica naming. No text is
+reproduced from those works.
+
+────────────────────────────────────────────────────────────────────────
+6. INTENDED USE AND LIMITATIONS
+────────────────────────────────────────────────────────────────────────
+Anatomy Studio is an EDUCATIONAL PRODUCT. It is not a medical device. It models
+one scanned adult male. It must not be used for diagnosis, treatment, surgical
+planning, or the measurement of any real person. The Coverage panel inside the
+application states in full what the model contains and what it does not.

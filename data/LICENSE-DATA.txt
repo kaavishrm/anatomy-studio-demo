@@ -1,0 +1,33 @@
+LICENCE FOR THE ANATOMICAL MESH DATA IN THIS DIRECTORY
+
+The files manifest.json and geo-00.js through geo-31.js in this directory contain
+anatomical mesh data derived from BodyParts3D.
+
+    BodyParts3D
+    © The Database Center for Life Science (DBCLS), Japan
+    https://lifesciencedb.jp/bp3d/
+
+    Licensed under Creative Commons Attribution-ShareAlike 2.1 Japan
+    https://creativecommons.org/licenses/by-sa/2.1/jp/
+
+This is a DERIVATIVE WORK. The mesh has been decimated from 6,681,030 to 3,071,613
+triangles, positions quantised to uint16, normals octahedral-encoded, and the whole
+partitioned into 32 gzipped chunks. Full derivation history is in the `provenance`
+block of manifest.json.
+
+Under the ShareAlike term, this derived mesh data is offered under the same licence:
+Creative Commons Attribution-ShareAlike 2.1 Japan. You may copy, modify and
+redistribute it under those terms, keeping this notice and the attribution with it.
+
+────────────────────────────────────────────────────────────────────────────
+THE OTHER FILES IN THIS DIRECTORY ARE NOT UNDER THAT LICENCE.
+
+    derived.json   regional assignment, laterality, the 1,019-entity grouping
+    anatomy.json   teaching cards, search lexicon, groups, spotter bank,
+                   competency map
+
+These are original works by MASK360 Agency. They are not part of BodyParts3D, they
+contain no BodyParts3D content, and they are licensed to the purchasing institution
+under the signed agreement. © 2026 MASK360 Agency. All rights reserved.
+
+See ../LICENSE.txt and ../NOTICE.txt.

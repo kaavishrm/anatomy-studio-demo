@@ -1,0 +1,43 @@
+ANATOMY STUDIO · LICENCE SUMMARY
+
+This build combines components under three different licence regimes. Read
+NOTICE.txt for the full attribution text.
+
+1. ANATOMICAL MESH DATA  (app/data/manifest.json, app/data/geo-*.js)
+   Derived from BodyParts3D, © DBCLS Japan.
+   Licence: Creative Commons Attribution-ShareAlike 2.1 Japan (CC BY-SA 2.1 JP).
+   Because that licence is ShareAlike, this derived mesh data is offered under
+   the same licence. Recipients may copy, modify and redistribute it under
+   CC BY-SA 2.1 JP. It CANNOT be placed under a restrictive redistribution term.
+
+2. APPLICATION SOFTWARE  (app/index.html, app/src/*, app/sw.js)
+   © 2026 MASK360 Agency. All rights reserved.
+   Licensed to the purchasing institution under the terms of the signed
+   agreement. Not open source. This is the software layer only: the shaders,
+   interface, examination engine, lesson builder and content pipeline. It is a
+   separate work from the mesh data, which it reads at runtime.
+
+3. TEACHING CONTENT  (app/data/anatomy.json, app/data/derived.json)
+   © 2026 MASK360 Agency. All rights reserved.
+   Original written content and derived indices. Licensed to the purchasing
+   institution under the signed agreement.
+
+────────────────────────────────────────────────────────────────────────
+WHAT THIS MEANS COMMERCIALLY
+
+The mesh data cannot be locked down. Anyone who receives this build may lawfully
+redistribute the geometry files under CC BY-SA. Any commercial agreement must
+therefore be priced and written against what actually IS exclusive and
+enforceable:
+
+  · the software layer and its interface
+  · the teaching content, the spotter bank and the competency mapping
+  · hosting, LAN deployment and updates
+  · institutional branding
+  · faculty training
+  · support and the annual content refresh
+
+Do not sell "per-seat access to the model". Sell an annual institutional licence
+to the software, the content and the service around them.
+
+Have this reviewed by counsel before signing an institutional agreement.
